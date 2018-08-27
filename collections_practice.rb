@@ -33,3 +33,7 @@ def sort_array_char_count(array)
     end
   end
 end
+
+def swap_elements(array, index, destination_index)
+  placeholder = array[destination_index]
+  array[destination_index] = array[index]
