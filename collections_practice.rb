@@ -71,7 +71,7 @@ end
 
 def add_s(array)
   array.each_with_index.collect do |element, i|
-    if i == 2
+    if i == 1
       element
     else
       element << "s"
