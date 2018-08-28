@@ -37,3 +37,5 @@ end
 def swap_elements(array, index, destination_index)
   placeholder = array[destination_index]
   array[destination_index] = array[index]
+  array[index] = placeholder
+end
