@@ -66,5 +66,15 @@ def find_a(array)
 end
 
 def sum_array(array)
-  array.inject {|m, i| m + i}
+  array.inject {|sum, i| sum + i}
+end
+
+def add_s(array)
+  array.each_with_index.collect do |element, i|
+    if i == 2
+      element[i]
+    else
+      element[i] << "s"
+    end
+  end
 end
